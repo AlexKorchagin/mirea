@@ -1,0 +1,50 @@
+&__box
+    width: 100%
+    height: 594px
+    display: flex
+    justify-content: space-between
+    &__column-left
+        width: 48%
+        .gallery__item
+            background-image: url("../img/1g.jpeg")
+            height: 100%
+    &__column-right
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        width: 48%
+        &__row
+            height: 176px
+            display: flex
+            justify-content: space-between
+        &__row:nth-of-type(1)
+            .gallery__item
+                width: 100%
+                background-image: url("../img/2g.jpeg")
+        &__row:nth-of-type(2)
+            .gallery__item
+                width: 49%
+            .gallery__item:nth-of-type(1)
+                background-image: url("../img/3g.jpeg")
+            .gallery__item:nth-of-type(2)
+                background-image: url("../img/4g.jpeg")
+        &__row:nth-of-type(3)
+            .gallery__item
+                width: 32%
+            .gallery__item:nth-of-type(1)
+                background-image: url("../img/5g.jpeg")
+            .gallery__item:nth-of-type(2)
+                background-image: url("../img/6g.jpeg")
+            .gallery__item:nth-of-type(3)
+                background-image: url("../img/7g.jpeg")
+
+&__item
+    height: 100%
+    background-position: center
+    background-size: cover
+    background-repeat: no-repeat
+    border-radius: 10px
+
+
+        
+            

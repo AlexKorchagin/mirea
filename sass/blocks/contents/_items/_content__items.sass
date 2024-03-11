@@ -1,0 +1,57 @@
+&__box
+    display: flex
+    width: 100%
+    justify-content: center
+    margin-top: 50px
+&__item
+    position: relative
+    display: flex
+    width: 476px
+    padding: 40px 0px
+    flex-direction: column
+    align-items: center
+    background-color: #fff
+    border-radius: 10px
+    &:nth-of-type(1)
+        margin-right: 30px
+    &__title
+        margin: 0
+        color: #000
+        font-size: 20px
+        font-style: normal
+        font-weight: 600
+        margin-top: 0
+    &__desqr
+        max-width: 270px
+        text-align: center
+        color: #5C5C5C
+        margin: 0
+        margin-top: 30px
+    &__img
+        width: 88%
+    &__sign-btn
+        @extend %blue-button
+        height: 52px
+        width: 157px
+        box-shadow: 0px 4px 31px 0px rgba(0, 0, 0, 0.15)
+        margin-top: 40px
+    &__free-button
+        @extend %blue-button
+        height: 52px
+        width: 192px
+        box-shadow: 0px 4px 31px 0px rgba(0, 0, 0, 0.15)
+        margin-top: 40px
+    &__new-line
+        position: absolute
+        width: 155px
+        color: #000
+        text-align: center
+        background-color: $secondary
+        font-size: 17px
+        font-style: normal
+        transform: rotate(45deg)
+        font-weight: 500
+        box-shadow: 0px 4px 31px 0px rgba(0, 0, 0, 0.15)
+        left: 76%
+        bottom: 92%
+        // clip-path: polygon(34% 0, 70% 0, 100% 100%, 0% 100%)
